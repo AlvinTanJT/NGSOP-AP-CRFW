@@ -1,0 +1,5 @@
+C:\Users\Alvin\Source\Repos\NGSOP-AP-CRFW\Engines\bin\Debug\Engines.dll
+C:\Users\Alvin\Source\Repos\NGSOP-AP-CRFW\Engines\bin\Debug\Engines.pdb
+C:\Users\Alvin\Source\Repos\NGSOP-AP-CRFW\Engines\obj\Debug\Engines.csprojResolveAssemblyReference.cache
+C:\Users\Alvin\Source\Repos\NGSOP-AP-CRFW\Engines\obj\Debug\Engines.dll
+C:\Users\Alvin\Source\Repos\NGSOP-AP-CRFW\Engines\obj\Debug\Engines.pdb

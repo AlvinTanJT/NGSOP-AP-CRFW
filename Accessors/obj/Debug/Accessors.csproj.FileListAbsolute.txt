@@ -1,0 +1,5 @@
+C:\Users\Alvin\Source\Repos\NGSOP-AP-CRFW\Accessors\bin\Debug\Accessors.dll
+C:\Users\Alvin\Source\Repos\NGSOP-AP-CRFW\Accessors\bin\Debug\Accessors.pdb
+C:\Users\Alvin\Source\Repos\NGSOP-AP-CRFW\Accessors\obj\Debug\Accessors.csprojResolveAssemblyReference.cache
+C:\Users\Alvin\Source\Repos\NGSOP-AP-CRFW\Accessors\obj\Debug\Accessors.dll
+C:\Users\Alvin\Source\Repos\NGSOP-AP-CRFW\Accessors\obj\Debug\Accessors.pdb

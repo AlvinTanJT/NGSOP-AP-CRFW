@@ -6,10 +6,21 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accessors", "Accessors\Accessors.csproj", "{6DDB21FC-4E09-4DF1-957E-260D2661B394}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domains", "Domains\Domains.csproj", "{A5973B65-0CFD-4442-8C58-68C86C4A8754}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6DDB21FC-4E09-4DF1-957E-260D2661B394} = {6DDB21FC-4E09-4DF1-957E-260D2661B394}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engines", "Engines\Engines.csproj", "{C9EB568D-1623-4528-8FE5-3EEDBDD824E6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A5973B65-0CFD-4442-8C58-68C86C4A8754} = {A5973B65-0CFD-4442-8C58-68C86C4A8754}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{375064CE-B71D-49ED-9A4A-A213A0508938}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6DDB21FC-4E09-4DF1-957E-260D2661B394} = {6DDB21FC-4E09-4DF1-957E-260D2661B394}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Console_", "..\..\..\Desktop\Programming\NGSOP-AP-CRFW\_Console_\_Console_.csproj", "{FFE0F7A7-72C4-4D03-AAC5-2259DD701DD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +44,10 @@ Global
 		{375064CE-B71D-49ED-9A4A-A213A0508938}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{375064CE-B71D-49ED-9A4A-A213A0508938}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{375064CE-B71D-49ED-9A4A-A213A0508938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE0F7A7-72C4-4D03-AAC5-2259DD701DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE0F7A7-72C4-4D03-AAC5-2259DD701DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE0F7A7-72C4-4D03-AAC5-2259DD701DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE0F7A7-72C4-4D03-AAC5-2259DD701DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
